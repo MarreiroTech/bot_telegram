@@ -37,6 +37,8 @@ class TelegramBot:
     def create_answer(self, message_text):
          if message_text in ["Oi","Ola","oi","ola"]:
             return "Ola, tudo bem?"
+         if message_text in ["Sim","Claro"]:
+            return "Que bom, Tenha um excelente dia!"   
          else:
              return "Não entendi..."
     
